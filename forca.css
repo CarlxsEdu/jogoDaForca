@@ -1,0 +1,86 @@
+body{
+   background-color: rgba(112, 230, 220, 0.717);
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(9, 5rem);
+    grid-template-rows: repeat(3, 5rem);
+    gap: 5px;
+    align-self: center;
+}   
+.teclado p {
+    background-color: rgb(218, 238, 255);
+    box-shadow: 4px 4px 10px 4px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 4px 4px 10px 4px rgba(0,0,0,0.72);
+    -moz-box-shadow: 4px 4px 10px 4px rgba(0,0,0,0.72);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+
+}
+
+.teclado div:hover{
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    transform: scale(1.02);
+}
+
+.img-forca{
+    align-self: center;
+    justify-self: center;
+}
+
+.jogo-config{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 2px rgb(35, 59, 80);
+    border-radius: 8px;
+    padding: 10px;
+    gap: 5px;
+    background-color:  rgb(218, 238, 255);
+    box-shadow: 4px 4px 10px 4px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 4px 4px 10px 4px rgba(0,0,0,0.72);
+    -moz-box-shadow: 4px 4px 10px 4px rgba(0,0,0,0.72);
+
+
+    
+}
+
+.jogo-config input{
+    color: black;
+    text-align: center;
+    
+}
+
+.botao-iniciar{
+    color:black;
+    height: 3rem;
+    background-color: rgb(117, 255, 243);
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.jogo-saida{
+    align-self: center;
+    justify-self: center;
+    font-size:  large;
+}
+
+
+
